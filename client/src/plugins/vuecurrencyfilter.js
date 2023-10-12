@@ -30,7 +30,15 @@ const CURRENCY_OPTIONS = {
     fractionSeparator: ',',
     symbolPosition: 'front',
     symbolSpacing: true
-  }
+  },
+  const rupeeFormat = {
+    symbol: '₹',
+    thousandsSeparator: ',',
+    fractionCount: 2,
+    fractionSeparator: '.',
+    symbolPosition: 'front',
+    symbolSpacing: true
+ }
 }
 
 export { CURRENCY_OPTIONS }
